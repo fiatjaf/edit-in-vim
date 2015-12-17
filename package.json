@@ -1,0 +1,29 @@
+{
+  "name": "edit-in-vim",
+  "version": "0.1.0",
+  "description": "Edit a string in the default editor and get the result from your CLI app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -p '(require(\".\"))(\"change this and see the result\")'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiatjaf/edit-in-vim.git"
+  },
+  "keywords": [
+    "vim",
+    "vipe",
+    "cli",
+    "edit",
+    "editor"
+  ],
+  "author": "Giovanni T. Parra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiatjaf/edit-in-vim/issues"
+  },
+  "homepage": "https://github.com/fiatjaf/edit-in-vim#readme",
+  "dependencies": {
+    "tmp": "0.0.28"
+  }
+}
